@@ -1,0 +1,60 @@
+{
+  "accuracy": 0.9700967458223395,
+  "balanced_accuracy": 0.9617489989390052,
+  "macro_f1": 0.962685225729742,
+  "per_class": {
+    "Normal": {
+      "precision": 0.9790301441677588,
+      "recall": 0.9771092217135383,
+      "f1-score": 0.9780687397708674,
+      "support": 1529.0
+    },
+    "COVID": {
+      "precision": 0.9471766848816029,
+      "recall": 0.9576427255985267,
+      "f1-score": 0.9523809523809523,
+      "support": 543.0
+    },
+    "Viral Pneumonia": {
+      "precision": 0.964824120603015,
+      "recall": 0.9504950495049505,
+      "f1-score": 0.9576059850374065,
+      "support": 202.0
+    },
+    "accuracy": 0.9700967458223395,
+    "macro avg": {
+      "precision": 0.963676983217459,
+      "recall": 0.9617489989390052,
+      "f1-score": 0.962685225729742,
+      "support": 2274.0
+    },
+    "weighted avg": {
+      "precision": 0.9701620504331675,
+      "recall": 0.9700967458223395,
+      "f1-score": 0.9701171368645864,
+      "support": 2274.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      1494,
+      29,
+      6
+    ],
+    [
+      22,
+      520,
+      1
+    ],
+    [
+      10,
+      0,
+      192
+    ]
+  ],
+  "best_epoch": 18,
+  "best_val_macro_f1": 0.9668482207697894,
+  "training_evaluation_seconds": 1810.491711139679,
+  "final_invocation_seconds": 95.43286871910095,
+  "initialization": "random_torchvision_default"
+}

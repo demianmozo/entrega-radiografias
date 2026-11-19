@@ -1,0 +1,58 @@
+{
+  "seed": 20261115,
+  "total_images": 21165,
+  "counts": {
+    "Normal": 10192,
+    "Lung_Opacity": 6012,
+    "COVID": 3616,
+    "Viral Pneumonia": 1345
+  },
+  "unreadable": [],
+  "unmatched_metadata": [],
+  "dimensions": "{('COVID', 299, 299): 3616, ('Lung_Opacity', 299, 299): 6012, ('Normal', 299, 299): 10192, ('Viral Pneumonia', 299, 299): 1345}",
+  "modes": "{('COVID', 'L'): 3616, ('Lung_Opacity', 'L'): 6012, ('Normal', 'L'): 10192, ('Viral Pneumonia', 'L'): 1205, ('Viral Pneumonia', 'RGB'): 140}",
+  "intensity_range": [
+    0,
+    255
+  ],
+  "exact_byte_duplicate_excess": 54,
+  "exact_pixel_duplicate_excess": 59,
+  "exact_pairs": 59,
+  "visual_candidates": 1720,
+  "confirmed_visual": 234,
+  "conflicting_groups": 0,
+  "excluded_conflicts": 0,
+  "split_counts": {
+    "excluded_lung_opacity": {
+      "COVID": 0,
+      "Lung_Opacity": 6012,
+      "Normal": 0,
+      "Viral Pneumonia": 0
+    },
+    "test": {
+      "COVID": 543,
+      "Lung_Opacity": 0,
+      "Normal": 1529,
+      "Viral Pneumonia": 202
+    },
+    "train": {
+      "COVID": 2530,
+      "Lung_Opacity": 0,
+      "Normal": 7134,
+      "Viral Pneumonia": 941
+    },
+    "val": {
+      "COVID": 543,
+      "Lung_Opacity": 0,
+      "Normal": 1529,
+      "Viral Pneumonia": 202
+    }
+  },
+  "mask_counts": {
+    "Normal": 10192,
+    "COVID": 3616,
+    "Viral Pneumonia": 1345,
+    "Lung_Opacity": 6012
+  },
+  "seconds": 11.311504125595093
+}

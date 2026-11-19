@@ -1,0 +1,7 @@
+.venv/
+.vscode/
+.ipynb_checkpoints/
+__pycache__/
+data/raw/
+results/reproduccion_notebook/
+*.pt
